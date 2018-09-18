@@ -9,7 +9,7 @@ import javax.swing.JButton;
 
 /**
  *
- * @author lendle willy666666
+ * @author lendle willy66666
  */
 public class RevalidateSample extends javax.swing.JFrame {
 
@@ -69,6 +69,7 @@ public class RevalidateSample extends javax.swing.JFrame {
         jPanel1.add(button);
         //試試看，應該加入 repaint? invalidate? revalidate?
         /////////////////////////////////////////////////
+        jPanel1.
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
