@@ -146,15 +146,16 @@ public class BorderSample extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         //實作 RaisedBevel border
+        Border border = BorderFactory.createBevelBorder(WIDTH, Color.lightGray, Color.BLUE);
+        jButton1.setBorder(border);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         //實作 LoweredBevel border
         int width = this.getWidth();
-        Border border = BorderFactory.createBevelBorder(WIDTH, Color.lightGray, Color.BLUE);
-        jButton1.setBorder(border);
-              
+        Border border = BorderFactory.createLoweredBevelBorder();
+        jButton1.setBorder(border);      
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
@@ -176,6 +177,10 @@ public class BorderSample extends javax.swing.JFrame {
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
         //實作 matte border
+        Border border = BorderFactory.createMatteBorder(10, 20, 30, 40, Color.GREEN);
+        jButton1.setBorder(border);
+        
+        
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
