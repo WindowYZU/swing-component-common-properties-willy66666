@@ -9,7 +9,7 @@ import javax.swing.JButton;
 
 /**
  *
- * @author lendle willy66666
+ * @author lendle willy666666
  */
 public class RevalidateSample extends javax.swing.JFrame {
 
